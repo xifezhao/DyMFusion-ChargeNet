@@ -113,16 +113,3 @@ The main script `dymfusion_chargenet.py` (assuming you save the Python code with
 *   **Dynamic Adaptation Curves**: Visually inspect how well `DyMFusion_ChargeNet` (FullModel) tracks actual demand during simulated shock periods compared to `StaticFusion` and `LSTM`. The red shaded areas indicate periods where the shock signal in `event_rt` is active.
 *   **Shock vs. Normal Performance Plot**: Quantitatively compare MAE during simulated shock periods versus normal periods for key models.
 
-## Future Work & Extensions
-
-(This section can briefly mirror the "Future Work" section of your paper, e.g., integrating real-time external data, more advanced MAFE/DCF mechanisms, hyperparameter optimization, cross-dataset validation, and enhancing model interpretability.)
-
-## Citation
-
-If you use this code or the DyMFusion-ChargeNet framework in your research, please cite our paper:
-
-
-
-## Contact
-
-For any questions or issues, please contact [Your Name/Email or open an issue on GitHub].
