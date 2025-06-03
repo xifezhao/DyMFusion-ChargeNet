@@ -47,7 +47,7 @@ This project utilizes the **UrbanEV dataset**.
 *   **Graph Construction**: The provided `adj.csv` was found to have limited inter-zone connections. This implementation dynamically constructs a more effective graph based on Haversine distance between zones (derived from `inf.csv`) using a configurable threshold (e.g., 2.0 km).
 *   **Dynamic Shocks**: The code includes functionality to simulate dynamic shock events (e.g., traffic jams, large local events) by modifying the target variable and adding corresponding indicator features to the `event_rt` vector for testing adaptive capabilities.
 
-[**(Please include a link here to where users can download the UrbanEV dataset if it's publicly available, e.g., a Dryad link, or instructions on how to obtain it.)**](https://zenodo.org/records/14913966)
+Urbanev: An open benchmark dataset for urban electric vehicle charging demand prediction (https://zenodo.org/records/14913966)
 
 ## Requirements
 
